@@ -11,9 +11,10 @@
 
 ---
 
-## ABSTRACT
+## Abstract
 
-The Online Auction & Bidding System is a Java-based console application designed to simulate a timed online auction process. The system allows users to list auction lots with starting prices, minimum bid increments, and closing times, while bidders can place valid bids and set secret maximum limits through proxy bidding. It automatically validates bids, resolves competing proxy bids, determines winners and final prices, and handles closed or unsold lots. The project is developed progressively alongside the Java course, beginning with basic console operations, conditions, loops, methods, arrays, and gradually extending to object-oriented programming, interfaces, custom exceptions, records, file handling, collections, priority queues, maps, comparators, and streams. Auction data, bids, and settlement results are persisted to files, allowing the system to reload and resolve overdue auctions. The project demonstrates how fundamental Java concepts can be applied to build a complete real-world system.
+The **Online Auction & Bidding System** is a console-based Java application designed to simulate the complete process of an online auction. The system allows multiple bidders to participate in auctions, place bids, and compete for different auction lots. It validates bids based on the current highest bid, minimum bidding increment, and auction status. The system also supports **proxy bidding**, allowing bidders to specify a maximum amount they are willing to pay while automatically increasing their bids when necessary. Auctions can be closed based on their specified closing time, after which the system determines the winning bidder and final selling price. It also identifies unsold items and generates settlement and sales reports. The project is developed progressively alongside the Java syllabus, incorporating concepts such as conditions, loops, methods, arrays, object-oriented programming, interfaces, exceptions, records, file handling, collections, and streams. This approach demonstrates the practical application of Java concepts in developing a structured and functional auction management system.
+
 
 ---
 

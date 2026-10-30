@@ -23,8 +23,6 @@ The **Online Auction & Bidding System** is a console-based Java application desi
 ```text
 Online-Auction-Bidding-System/
 │
-├── README.md
-│
 ├── src/
 │   ├── Main.java
 │   ├── AuctionHouse.java
@@ -32,17 +30,13 @@ Online-Auction-Bidding-System/
 │   ├── Bidder.java
 │   ├── Bid.java
 │   ├── BidValidator.java
-│   ├── InvalidBidException.java
-│   ├── AuctionClosedException.java
-│   └── SettlementResult.java
+│   ├── DefaultBidValidator.java
+│   ├── AuctionException.java
+│   └── Reportable.java
 │
+├── README.md
 ├── data/
-│   ├── lots.txt
-│   ├── bids.txt
-│   └── settlements.txt
-│
 └── reports/
-    └── auction-report.txt
 ```
 
 ---
